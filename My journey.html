@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Walk with Cosmas Nwachukwu From Curiosity to Career: My Path in Technology">
+    <title>My Career Journey</title>
+</head>
+<body>
+    <main>
+        <h1>Explore My Story</h1>
+
+    <h2> This is who I am </h2>
+  <!--Using picture element  to display different pictures for different devices or screen sizes laptop, tablet and mobile phones--> 
+  <figure>   
+      <picture>
+            <!--for Laptop display-->
+            <source
+              media="(min-width: 1024px)"
+              srcset="assets/images/face_cap_pose.jpg"
+            >
+            <!--for Tablet display-->
+            <source
+              media="(min-width: 720px)"
+              srcset="assets/images/image.jpg"
+            >
+            <!--for mobile-->
+            <img src="./assets/images/picture.JPG" height="300" width="280"
+            >
+          </picture>
+              <Figcaption>
+                  <em> The images changes depending on devices or screen sizes.
+                    <br>   
+                         Resize the browser to see different versions of the picture loading at different viewport sizes
+                </em>
+            </Figcaption>
+              </figure>  
+          <br>
+          <br>
+          <br>
+
+    <h2> Listen to how I got here </h2>
+    
+      <audio src="./assets/audios/MY_JOURNEY_audio.MP3" controls> </audio>
+      <p> Play this Audio</p>
+      <br>
+      <br>
+      <br>
+
+      <h2> A Visual Representation Of My Learning Journey</h2>
+      <figure>
+      <video src="./assets/videos/Story_video.mp4" height="480" width="640" controls ></video>
+      <figcaption> A time lapse video showing how the journey has been going so far. </figcaption>
+    </figure>
+<br>
+<br> 
+<!-- using iframe element to embed another html file into the html-->
+ <h2> This Is One Of My Works</h2>
+<figure>
+ <iframe
+    src="https://course-work-self.vercel.app/" height="400" width="80%" >
+   </iframe>
+<figcaption><small> embedded html file showcasing my previous work </small></figcaption>
+</figure>
+
+</main>
+    <footer>
+        <p>&copy;Cosmas Nwachukwu 2025</p>
+    </footer>
+</body>
+</html>
